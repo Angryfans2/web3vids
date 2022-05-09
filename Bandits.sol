@@ -1255,7 +1255,7 @@ contract Bandits is ERC721Enumerable, Ownable {
     constructor() ERC721("Bandits", "B") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
-        return "ipfs://EE5MmqVp5MmqVp7ZRMBBizicVh9ficVh9fjUofWicVh9f/";
+        return "ipfs://Qmc1qu839F9u686VEdUTSTGq2jrzzwYon4mRbSRTGHT9bE";
     }
         // public
 
