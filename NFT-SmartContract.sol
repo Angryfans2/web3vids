@@ -1243,16 +1243,16 @@ abstract contract Ownable is Context {
 
 pragma solidity ^0.8.0;
 
-contract Net2Dev is ERC721Enumerable, Ownable {
+contract Bandits is ERC721Enumerable, Ownable {
     using Strings for uint256;
     string public baseURI;
     string public baseExtension = ".json";
-        uint256 public cost = 0.05 ether;
-    uint256 public maxSupply = 1000;
+        uint256 public cost = 0.002 ether;
+    uint256 public maxSupply = 100;
     uint256 public maxMintAmount = 5;
     bool public paused = false;
 
-    constructor() ERC721("Net2Dev NFT Collection", "N2D") {}
+    constructor() ERC721("Bandits", "B") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
         return "ipfs://EE5MmqVp5MmqVp7ZRMBBizicVh9ficVh9fjUofWicVh9f/";
